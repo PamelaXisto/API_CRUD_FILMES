@@ -1,0 +1,45 @@
+/* Container da Home */
+.home-container {
+  padding: 50px 70px;
+}
+
+/* Container da barra de pesquisa */
+.search-container {
+  margin-bottom: 30px;       
+  display: flex;
+  justify-content: center;  
+}
+
+/* Barra de pesquisa */
+.search-bar {
+  width: 60%;      
+  max-width: 500px; 
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+/* Grid de filmes */
+
+/* Desktop: 3 cards */
+.grid-filmes {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+
+/* Tablet: 2 cards */
+@media (max-width: 992px) {
+  .grid-filmes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile: 1 card */
+@media (max-width: 600px) {
+  .grid-filmes {
+    grid-template-columns: 1fr;
+  }
+}

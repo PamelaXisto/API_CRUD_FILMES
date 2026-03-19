@@ -1,0 +1,17 @@
+.filme-detalhes {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.filme-detalhes img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.filme-detalhes button {
+  margin-top: 16px;
+}
