@@ -200,3 +200,24 @@ CREATE TABLE tbl_filme (
 3.Acesse no navegador:
 
 ``http://localhost:3000``
+
+------------------
+
+## Telas
+### 1. Aplicação Completa:
+![tela_completa](./FILME-FRONT/src/assets/images/tela_inteira.png)
+
+------------------------
+
+### 2. Filtragem pelo nome do filme
+![Filtragem](./FILME-FRONT/src/assets/images/pesquisa_card.png)
+
+--------------------------
+
+### 3. Detalhes do card com o cursor em cima
+![card_cursor](./FILME-FRONT/src/assets/images/card_pointer.png)
+
+---------------------------
+
+### 4. Mais detalhes do card para uma melhor visualização 
+![detalhes_card](./FILME-FRONT/src/assets/images/card_detalhes.png)
